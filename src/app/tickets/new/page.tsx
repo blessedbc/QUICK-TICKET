@@ -4,7 +4,7 @@ import { useActionState } from "react";
 import { createTicket } from "@/actions/ticket.actions";
 
 const NewTicketPage = () => {
-  const [state, formAction] = useActionState(createTicket, {
+  const [, formAction] = useActionState(createTicket, {
     success: false,
     message: ''
   })
