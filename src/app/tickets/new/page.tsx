@@ -48,5 +48,4 @@ const NewTicketPage = () => {
     </div>
   )  
 }
-
 export default NewTicketPage;
