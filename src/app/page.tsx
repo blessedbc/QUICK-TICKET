@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { FaTicketAlt } from 'react-icons/fa';
-
 const HomePage = () => {
   return (
   <main className='flex flex-col text-center items-center justify-center min-h-screen px-4'>
@@ -28,5 +27,4 @@ const HomePage = () => {
     </main>
   );
 }
-
 export default HomePage;
