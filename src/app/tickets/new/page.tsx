@@ -41,6 +41,7 @@ const NewTicketPage = () => {
       className="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700 transition disabled:opacity-50"
       type="submit"
       >
+        
         Submit
       </button>
      </form>
